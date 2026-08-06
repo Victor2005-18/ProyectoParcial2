@@ -1,0 +1,851 @@
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
+Partial Class Form1
+    Inherits System.Windows.Forms.Form
+
+    'Form overrides dispose to clean up the component list.
+    <System.Diagnostics.DebuggerNonUserCode()>
+    Protected Overrides Sub Dispose(disposing As Boolean)
+        Try
+            If disposing AndAlso components IsNot Nothing Then
+                components.Dispose()
+            End If
+        Finally
+            MyBase.Dispose(disposing)
+        End Try
+    End Sub
+
+    'Required by the Windows Form Designer
+    Private components As System.ComponentModel.IContainer
+
+    'NOTE: The following procedure is required by the Windows Form Designer
+    'It can be modified using the Windows Form Designer.
+    'Do not modify it using the code editor.
+    <System.Diagnostics.DebuggerStepThrough()>
+    Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
+        MenuStrip1 = New MenuStrip()
+        mnuArchivo = New ToolStripMenuItem()
+        mnuNuevoEstudiante = New ToolStripMenuItem()
+        mnuImportar = New ToolStripMenuItem()
+        mnuExportar = New ToolStripMenuItem()
+        mnuSalir = New ToolStripMenuItem()
+        mnuEstudiantes = New ToolStripMenuItem()
+        mnuGuardarEstudiante = New ToolStripMenuItem()
+        mnuEliminarEstudiante = New ToolStripMenuItem()
+        mnuLimpiarEstudiante = New ToolStripMenuItem()
+        mnuReportes = New ToolStripMenuItem()
+        mnuActualizarReporte = New ToolStripMenuItem()
+        mnuReporteBecados = New ToolStripMenuItem()
+        mnuReporteTurnos = New ToolStripMenuItem()
+        mnuFormato = New ToolStripMenuItem()
+        mnuFuente = New ToolStripMenuItem()
+        mnuColor = New ToolStripMenuItem()
+        mnuNegrita = New ToolStripMenuItem()
+        mnuCursiva = New ToolStripMenuItem()
+        ToolStrip1 = New ToolStrip()
+        tsbNuevo = New ToolStripButton()
+        tsbGuardar = New ToolStripButton()
+        ToolStripSeparator1 = New ToolStripSeparator()
+        tsbImportar = New ToolStripButton()
+        tsbExportar = New ToolStripButton()
+        ToolStripSeparator2 = New ToolStripSeparator()
+        tsbActualizarReporte = New ToolStripButton()
+        TabControl1 = New TabControl()
+        tabEstudiantes = New TabPage()
+        splitEstudiantes = New SplitContainer()
+        grpRegistroEstudiante = New GroupBox()
+        tlpRegistroEstudiante = New TableLayoutPanel()
+        txtNombre = New TextBox()
+        Label1 = New Label()
+        Label2 = New Label()
+        Label3 = New Label()
+        txtApellido = New TextBox()
+        txtMatricula = New TextBox()
+        grpTurno = New GroupBox()
+        rbVespertino = New RadioButton()
+        rbMatutino = New RadioButton()
+        Label4 = New Label()
+        chkBeca = New CheckBox()
+        btnLimpiarEstudiante = New Button()
+        btnGuardarEstudiante = New Button()
+        flpFiltrosEstudiantes = New FlowLayoutPanel()
+        Label5 = New Label()
+        txtBuscarEstudiante = New TextBox()
+        lbl = New Label()
+        cboFiltroBeca = New ComboBox()
+        Label6 = New Label()
+        cboFiltroTurno = New ComboBox()
+        dvgEstudiantes = New DataGridView()
+        Column1 = New DataGridViewTextBoxColumn()
+        Column2 = New DataGridViewTextBoxColumn()
+        Column3 = New DataGridViewTextBoxColumn()
+        Column4 = New DataGridViewTextBoxColumn()
+        Column5 = New DataGridViewTextBoxColumn()
+        tabCursos = New TabPage()
+        DataGridView1 = New DataGridView()
+        Column6 = New DataGridViewTextBoxColumn()
+        Column7 = New DataGridViewTextBoxColumn()
+        Column8 = New DataGridViewTextBoxColumn()
+        Column9 = New DataGridViewTextBoxColumn()
+        Column10 = New DataGridViewTextBoxColumn()
+        grpDetalleEstudiante = New GroupBox()
+        lblDetalleNombre = New Label()
+        lblDetalleApellido = New Label()
+        lblDetalleMatricula = New Label()
+        Me.lblDetalleTurno = New Label()
+        Me.lblDetalleBeca = New Label()
+        TableLayoutPanel1 = New TableLayoutPanel()
+        MenuStrip1.SuspendLayout()
+        ToolStrip1.SuspendLayout()
+        TabControl1.SuspendLayout()
+        tabEstudiantes.SuspendLayout()
+        CType(splitEstudiantes, ComponentModel.ISupportInitialize).BeginInit()
+        splitEstudiantes.Panel1.SuspendLayout()
+        splitEstudiantes.Panel2.SuspendLayout()
+        splitEstudiantes.SuspendLayout()
+        grpRegistroEstudiante.SuspendLayout()
+        tlpRegistroEstudiante.SuspendLayout()
+        grpTurno.SuspendLayout()
+        flpFiltrosEstudiantes.SuspendLayout()
+        CType(dvgEstudiantes, ComponentModel.ISupportInitialize).BeginInit()
+        tabCursos.SuspendLayout()
+        CType(DataGridView1, ComponentModel.ISupportInitialize).BeginInit()
+        grpDetalleEstudiante.SuspendLayout()
+        SuspendLayout()
+        ' 
+        ' MenuStrip1
+        ' 
+        MenuStrip1.ImageScalingSize = New Size(24, 24)
+        MenuStrip1.Items.AddRange(New ToolStripItem() {mnuArchivo, mnuEstudiantes, mnuReportes, mnuFormato})
+        MenuStrip1.Location = New Point(0, 0)
+        MenuStrip1.Name = "MenuStrip1"
+        MenuStrip1.Size = New Size(1085, 33)
+        MenuStrip1.TabIndex = 0
+        MenuStrip1.Text = "MenuStrip1"
+        ' 
+        ' mnuArchivo
+        ' 
+        mnuArchivo.DropDownItems.AddRange(New ToolStripItem() {mnuNuevoEstudiante, mnuImportar, mnuExportar, mnuSalir})
+        mnuArchivo.Name = "mnuArchivo"
+        mnuArchivo.Size = New Size(88, 29)
+        mnuArchivo.Text = "Archivo"
+        ' 
+        ' mnuNuevoEstudiante
+        ' 
+        mnuNuevoEstudiante.Name = "mnuNuevoEstudiante"
+        mnuNuevoEstudiante.Size = New Size(279, 34)
+        mnuNuevoEstudiante.Text = "Nuevo Registro"
+        ' 
+        ' mnuImportar
+        ' 
+        mnuImportar.Name = "mnuImportar"
+        mnuImportar.Size = New Size(279, 34)
+        mnuImportar.Text = "Importar Estudiantes"
+        ' 
+        ' mnuExportar
+        ' 
+        mnuExportar.Name = "mnuExportar"
+        mnuExportar.Size = New Size(279, 34)
+        mnuExportar.Text = "Exportar Estudiantes"
+        ' 
+        ' mnuSalir
+        ' 
+        mnuSalir.Name = "mnuSalir"
+        mnuSalir.Size = New Size(279, 34)
+        mnuSalir.Text = "Salir"
+        ' 
+        ' mnuEstudiantes
+        ' 
+        mnuEstudiantes.DropDownItems.AddRange(New ToolStripItem() {mnuGuardarEstudiante, mnuEliminarEstudiante, mnuLimpiarEstudiante})
+        mnuEstudiantes.Name = "mnuEstudiantes"
+        mnuEstudiantes.Size = New Size(118, 29)
+        mnuEstudiantes.Text = "Estudiantes"
+        ' 
+        ' mnuGuardarEstudiante
+        ' 
+        mnuGuardarEstudiante.Name = "mnuGuardarEstudiante"
+        mnuGuardarEstudiante.Size = New Size(270, 34)
+        mnuGuardarEstudiante.Text = "Guardar Estudiante"
+        ' 
+        ' mnuEliminarEstudiante
+        ' 
+        mnuEliminarEstudiante.Name = "mnuEliminarEstudiante"
+        mnuEliminarEstudiante.Size = New Size(270, 34)
+        mnuEliminarEstudiante.Text = "Eliminar Estudiante"
+        ' 
+        ' mnuLimpiarEstudiante
+        ' 
+        mnuLimpiarEstudiante.Name = "mnuLimpiarEstudiante"
+        mnuLimpiarEstudiante.Size = New Size(270, 34)
+        mnuLimpiarEstudiante.Text = "Limpiar Formulario"
+        ' 
+        ' mnuReportes
+        ' 
+        mnuReportes.DropDownItems.AddRange(New ToolStripItem() {mnuActualizarReporte, mnuReporteBecados, mnuReporteTurnos})
+        mnuReportes.Name = "mnuReportes"
+        mnuReportes.Size = New Size(98, 29)
+        mnuReportes.Text = "Reportes"
+        ' 
+        ' mnuActualizarReporte
+        ' 
+        mnuActualizarReporte.Name = "mnuActualizarReporte"
+        mnuActualizarReporte.Size = New Size(263, 34)
+        mnuActualizarReporte.Text = "Actualizar Reporte"
+        ' 
+        ' mnuReporteBecados
+        ' 
+        mnuReporteBecados.Name = "mnuReporteBecados"
+        mnuReporteBecados.Size = New Size(263, 34)
+        mnuReporteBecados.Text = "Mostrar Becados"
+        ' 
+        ' mnuReporteTurnos
+        ' 
+        mnuReporteTurnos.Name = "mnuReporteTurnos"
+        mnuReporteTurnos.Size = New Size(263, 34)
+        mnuReporteTurnos.Text = "Agrupar por Turno"
+        ' 
+        ' mnuFormato
+        ' 
+        mnuFormato.DropDownItems.AddRange(New ToolStripItem() {mnuFuente, mnuColor, mnuNegrita, mnuCursiva})
+        mnuFormato.Name = "mnuFormato"
+        mnuFormato.Size = New Size(104, 29)
+        mnuFormato.Text = "Formatos"
+        ' 
+        ' mnuFuente
+        ' 
+        mnuFuente.Name = "mnuFuente"
+        mnuFuente.Size = New Size(175, 34)
+        mnuFuente.Text = "Fuentes"
+        ' 
+        ' mnuColor
+        ' 
+        mnuColor.Name = "mnuColor"
+        mnuColor.Size = New Size(175, 34)
+        mnuColor.Text = "Color"
+        ' 
+        ' mnuNegrita
+        ' 
+        mnuNegrita.Name = "mnuNegrita"
+        mnuNegrita.Size = New Size(175, 34)
+        mnuNegrita.Text = "Negrita"
+        ' 
+        ' mnuCursiva
+        ' 
+        mnuCursiva.Name = "mnuCursiva"
+        mnuCursiva.Size = New Size(175, 34)
+        mnuCursiva.Text = "Cursiva"
+        ' 
+        ' ToolStrip1
+        ' 
+        ToolStrip1.ImageScalingSize = New Size(24, 24)
+        ToolStrip1.Items.AddRange(New ToolStripItem() {tsbNuevo, tsbGuardar, ToolStripSeparator1, tsbImportar, tsbExportar, ToolStripSeparator2, tsbActualizarReporte})
+        ToolStrip1.Location = New Point(0, 33)
+        ToolStrip1.Name = "ToolStrip1"
+        ToolStrip1.Size = New Size(1085, 34)
+        ToolStrip1.TabIndex = 1
+        ToolStrip1.Text = "ToolStrip1"
+        ' 
+        ' tsbNuevo
+        ' 
+        tsbNuevo.DisplayStyle = ToolStripItemDisplayStyle.Text
+        tsbNuevo.Image = CType(resources.GetObject("tsbNuevo.Image"), Image)
+        tsbNuevo.ImageTransparentColor = Color.Magenta
+        tsbNuevo.Name = "tsbNuevo"
+        tsbNuevo.Size = New Size(68, 29)
+        tsbNuevo.Text = "Nuevo"
+        ' 
+        ' tsbGuardar
+        ' 
+        tsbGuardar.DisplayStyle = ToolStripItemDisplayStyle.Text
+        tsbGuardar.Image = CType(resources.GetObject("tsbGuardar.Image"), Image)
+        tsbGuardar.ImageTransparentColor = Color.Magenta
+        tsbGuardar.Name = "tsbGuardar"
+        tsbGuardar.Size = New Size(79, 29)
+        tsbGuardar.Text = "Guardar"
+        ' 
+        ' ToolStripSeparator1
+        ' 
+        ToolStripSeparator1.Name = "ToolStripSeparator1"
+        ToolStripSeparator1.Size = New Size(6, 34)
+        ' 
+        ' tsbImportar
+        ' 
+        tsbImportar.DisplayStyle = ToolStripItemDisplayStyle.Text
+        tsbImportar.Image = CType(resources.GetObject("tsbImportar.Image"), Image)
+        tsbImportar.ImageTransparentColor = Color.Magenta
+        tsbImportar.Name = "tsbImportar"
+        tsbImportar.Size = New Size(86, 29)
+        tsbImportar.Text = "Importar"
+        ' 
+        ' tsbExportar
+        ' 
+        tsbExportar.DisplayStyle = ToolStripItemDisplayStyle.Text
+        tsbExportar.Image = CType(resources.GetObject("tsbExportar.Image"), Image)
+        tsbExportar.ImageTransparentColor = Color.Magenta
+        tsbExportar.Name = "tsbExportar"
+        tsbExportar.Size = New Size(82, 29)
+        tsbExportar.Text = "Exportar"
+        ' 
+        ' ToolStripSeparator2
+        ' 
+        ToolStripSeparator2.Name = "ToolStripSeparator2"
+        ToolStripSeparator2.Size = New Size(6, 34)
+        ' 
+        ' tsbActualizarReporte
+        ' 
+        tsbActualizarReporte.DisplayStyle = ToolStripItemDisplayStyle.Text
+        tsbActualizarReporte.Image = CType(resources.GetObject("tsbActualizarReporte.Image"), Image)
+        tsbActualizarReporte.ImageTransparentColor = Color.Magenta
+        tsbActualizarReporte.Name = "tsbActualizarReporte"
+        tsbActualizarReporte.Size = New Size(159, 29)
+        tsbActualizarReporte.Text = "Actualizar Reporte"
+        ' 
+        ' TabControl1
+        ' 
+        TabControl1.Controls.Add(tabEstudiantes)
+        TabControl1.Controls.Add(tabCursos)
+        TabControl1.Location = New Point(2, 76)
+        TabControl1.Name = "TabControl1"
+        TabControl1.SelectedIndex = 0
+        TabControl1.Size = New Size(1083, 534)
+        TabControl1.TabIndex = 2
+        ' 
+        ' tabEstudiantes
+        ' 
+        tabEstudiantes.Controls.Add(splitEstudiantes)
+        tabEstudiantes.Location = New Point(4, 34)
+        tabEstudiantes.Name = "tabEstudiantes"
+        tabEstudiantes.Padding = New Padding(3)
+        tabEstudiantes.Size = New Size(1075, 496)
+        tabEstudiantes.TabIndex = 0
+        tabEstudiantes.Text = "Inscripción de Estudiantes"
+        tabEstudiantes.UseVisualStyleBackColor = True
+        ' 
+        ' splitEstudiantes
+        ' 
+        splitEstudiantes.Dock = DockStyle.Fill
+        splitEstudiantes.Location = New Point(3, 3)
+        splitEstudiantes.Name = "splitEstudiantes"
+        ' 
+        ' splitEstudiantes.Panel1
+        ' 
+        splitEstudiantes.Panel1.Controls.Add(grpRegistroEstudiante)
+        ' 
+        ' splitEstudiantes.Panel2
+        ' 
+        splitEstudiantes.Panel2.Controls.Add(flpFiltrosEstudiantes)
+        splitEstudiantes.Size = New Size(1069, 490)
+        splitEstudiantes.SplitterDistance = 425
+        splitEstudiantes.TabIndex = 0
+        ' 
+        ' grpRegistroEstudiante
+        ' 
+        grpRegistroEstudiante.Controls.Add(tlpRegistroEstudiante)
+        grpRegistroEstudiante.Location = New Point(3, 3)
+        grpRegistroEstudiante.Name = "grpRegistroEstudiante"
+        grpRegistroEstudiante.Size = New Size(386, 327)
+        grpRegistroEstudiante.TabIndex = 0
+        grpRegistroEstudiante.TabStop = False
+        grpRegistroEstudiante.Text = "Registro del Estudiante"
+        ' 
+        ' tlpRegistroEstudiante
+        ' 
+        tlpRegistroEstudiante.ColumnCount = 2
+        tlpRegistroEstudiante.ColumnStyles.Add(New ColumnStyle(SizeType.Percent, 28.68421F))
+        tlpRegistroEstudiante.ColumnStyles.Add(New ColumnStyle(SizeType.Percent, 71.31579F))
+        tlpRegistroEstudiante.Controls.Add(txtNombre, 1, 0)
+        tlpRegistroEstudiante.Controls.Add(Label1, 0, 0)
+        tlpRegistroEstudiante.Controls.Add(Label2, 0, 1)
+        tlpRegistroEstudiante.Controls.Add(Label3, 0, 2)
+        tlpRegistroEstudiante.Controls.Add(txtApellido, 1, 1)
+        tlpRegistroEstudiante.Controls.Add(txtMatricula, 1, 2)
+        tlpRegistroEstudiante.Controls.Add(grpTurno, 1, 3)
+        tlpRegistroEstudiante.Controls.Add(Label4, 0, 3)
+        tlpRegistroEstudiante.Controls.Add(chkBeca, 1, 4)
+        tlpRegistroEstudiante.Controls.Add(btnLimpiarEstudiante, 1, 5)
+        tlpRegistroEstudiante.Controls.Add(btnGuardarEstudiante, 0, 5)
+        tlpRegistroEstudiante.Dock = DockStyle.Fill
+        tlpRegistroEstudiante.Location = New Point(3, 27)
+        tlpRegistroEstudiante.Name = "tlpRegistroEstudiante"
+        tlpRegistroEstudiante.RowCount = 6
+        tlpRegistroEstudiante.RowStyles.Add(New RowStyle(SizeType.Percent, 47.727272F))
+        tlpRegistroEstudiante.RowStyles.Add(New RowStyle(SizeType.Percent, 52.272728F))
+        tlpRegistroEstudiante.RowStyles.Add(New RowStyle(SizeType.Absolute, 47F))
+        tlpRegistroEstudiante.RowStyles.Add(New RowStyle(SizeType.Absolute, 56F))
+        tlpRegistroEstudiante.RowStyles.Add(New RowStyle(SizeType.Absolute, 54F))
+        tlpRegistroEstudiante.RowStyles.Add(New RowStyle(SizeType.Absolute, 51F))
+        tlpRegistroEstudiante.Size = New Size(380, 297)
+        tlpRegistroEstudiante.TabIndex = 0
+        ' 
+        ' txtNombre
+        ' 
+        txtNombre.Location = New Point(112, 3)
+        txtNombre.Name = "txtNombre"
+        txtNombre.Size = New Size(265, 31)
+        txtNombre.TabIndex = 1
+        ' 
+        ' Label1
+        ' 
+        Label1.AutoSize = True
+        Label1.Location = New Point(3, 0)
+        Label1.Name = "Label1"
+        Label1.Size = New Size(78, 25)
+        Label1.TabIndex = 0
+        Label1.Text = "Nombre"
+        ' 
+        ' Label2
+        ' 
+        Label2.AutoSize = True
+        Label2.Location = New Point(3, 42)
+        Label2.Name = "Label2"
+        Label2.Size = New Size(86, 25)
+        Label2.TabIndex = 2
+        Label2.Text = "Apellidos"
+        ' 
+        ' Label3
+        ' 
+        Label3.AutoSize = True
+        Label3.Location = New Point(3, 88)
+        Label3.Name = "Label3"
+        Label3.Size = New Size(84, 25)
+        Label3.TabIndex = 3
+        Label3.Text = "Matricula"
+        ' 
+        ' txtApellido
+        ' 
+        txtApellido.Location = New Point(112, 45)
+        txtApellido.Name = "txtApellido"
+        txtApellido.Size = New Size(265, 31)
+        txtApellido.TabIndex = 5
+        ' 
+        ' txtMatricula
+        ' 
+        txtMatricula.Location = New Point(112, 91)
+        txtMatricula.Name = "txtMatricula"
+        txtMatricula.Size = New Size(265, 31)
+        txtMatricula.TabIndex = 6
+        ' 
+        ' grpTurno
+        ' 
+        grpTurno.Controls.Add(rbVespertino)
+        grpTurno.Controls.Add(rbMatutino)
+        grpTurno.Location = New Point(112, 138)
+        grpTurno.Name = "grpTurno"
+        grpTurno.Size = New Size(265, 50)
+        grpTurno.TabIndex = 7
+        grpTurno.TabStop = False
+        ' 
+        ' rbVespertino
+        ' 
+        rbVespertino.AutoSize = True
+        rbVespertino.Location = New Point(115, 15)
+        rbVespertino.Name = "rbVespertino"
+        rbVespertino.Size = New Size(121, 29)
+        rbVespertino.TabIndex = 1
+        rbVespertino.TabStop = True
+        rbVespertino.Text = "Vespertino"
+        rbVespertino.UseVisualStyleBackColor = True
+        ' 
+        ' rbMatutino
+        ' 
+        rbMatutino.AutoSize = True
+        rbMatutino.Location = New Point(0, 15)
+        rbMatutino.Name = "rbMatutino"
+        rbMatutino.Size = New Size(109, 29)
+        rbMatutino.TabIndex = 0
+        rbMatutino.TabStop = True
+        rbMatutino.Text = "Matutino"
+        rbMatutino.UseVisualStyleBackColor = True
+        ' 
+        ' Label4
+        ' 
+        Label4.AutoSize = True
+        Label4.Location = New Point(3, 135)
+        Label4.Name = "Label4"
+        Label4.Size = New Size(58, 25)
+        Label4.TabIndex = 4
+        Label4.Text = "Turno"
+        ' 
+        ' chkBeca
+        ' 
+        chkBeca.AutoSize = True
+        chkBeca.Location = New Point(112, 194)
+        chkBeca.Name = "chkBeca"
+        chkBeca.Size = New Size(168, 29)
+        chkBeca.TabIndex = 8
+        chkBeca.Text = "Cuenta con Beca"
+        chkBeca.UseVisualStyleBackColor = True
+        ' 
+        ' btnLimpiarEstudiante
+        ' 
+        btnLimpiarEstudiante.Location = New Point(112, 248)
+        btnLimpiarEstudiante.Name = "btnLimpiarEstudiante"
+        btnLimpiarEstudiante.Size = New Size(112, 34)
+        btnLimpiarEstudiante.TabIndex = 10
+        btnLimpiarEstudiante.Text = "Limpiar"
+        btnLimpiarEstudiante.UseVisualStyleBackColor = True
+        ' 
+        ' btnGuardarEstudiante
+        ' 
+        btnGuardarEstudiante.Location = New Point(3, 248)
+        btnGuardarEstudiante.Name = "btnGuardarEstudiante"
+        btnGuardarEstudiante.Size = New Size(103, 34)
+        btnGuardarEstudiante.TabIndex = 11
+        btnGuardarEstudiante.Text = "Guardar"
+        btnGuardarEstudiante.UseVisualStyleBackColor = True
+        ' 
+        ' flpFiltrosEstudiantes
+        ' 
+        flpFiltrosEstudiantes.Controls.Add(Label5)
+        flpFiltrosEstudiantes.Controls.Add(txtBuscarEstudiante)
+        flpFiltrosEstudiantes.Controls.Add(lbl)
+        flpFiltrosEstudiantes.Controls.Add(cboFiltroBeca)
+        flpFiltrosEstudiantes.Controls.Add(Label6)
+        flpFiltrosEstudiantes.Controls.Add(cboFiltroTurno)
+        flpFiltrosEstudiantes.Controls.Add(dvgEstudiantes)
+        flpFiltrosEstudiantes.Controls.Add(DataGridView1)
+        flpFiltrosEstudiantes.Controls.Add(grpDetalleEstudiante)
+        flpFiltrosEstudiantes.Enabled = False
+        flpFiltrosEstudiantes.Location = New Point(3, 3)
+        flpFiltrosEstudiantes.Name = "flpFiltrosEstudiantes"
+        flpFiltrosEstudiantes.Size = New Size(634, 536)
+        flpFiltrosEstudiantes.TabIndex = 0
+        ' 
+        ' Label5
+        ' 
+        Label5.AutoSize = True
+        Label5.Location = New Point(3, 0)
+        Label5.Name = "Label5"
+        Label5.Size = New Size(63, 25)
+        Label5.TabIndex = 0
+        Label5.Text = "Buscar"
+        ' 
+        ' txtBuscarEstudiante
+        ' 
+        txtBuscarEstudiante.Location = New Point(72, 3)
+        txtBuscarEstudiante.Name = "txtBuscarEstudiante"
+        txtBuscarEstudiante.Size = New Size(524, 31)
+        txtBuscarEstudiante.TabIndex = 1
+        ' 
+        ' lbl
+        ' 
+        lbl.AutoSize = True
+        lbl.Location = New Point(3, 37)
+        lbl.Name = "lbl"
+        lbl.Size = New Size(58, 25)
+        lbl.TabIndex = 2
+        lbl.Text = "Turno"
+        ' 
+        ' cboFiltroBeca
+        ' 
+        cboFiltroBeca.FormattingEnabled = True
+        cboFiltroBeca.Items.AddRange(New Object() {"", "Con Beca", "Sin Beca"})
+        cboFiltroBeca.Location = New Point(67, 40)
+        cboFiltroBeca.Name = "cboFiltroBeca"
+        cboFiltroBeca.Size = New Size(529, 33)
+        cboFiltroBeca.TabIndex = 5
+        ' 
+        ' Label6
+        ' 
+        Label6.AutoSize = True
+        Label6.Location = New Point(3, 76)
+        Label6.Name = "Label6"
+        Label6.Size = New Size(48, 25)
+        Label6.TabIndex = 4
+        Label6.Text = "Beca"
+        ' 
+        ' cboFiltroTurno
+        ' 
+        cboFiltroTurno.FormattingEnabled = True
+        cboFiltroTurno.Items.AddRange(New Object() {"Completo", "Matutino", "Vespertino"})
+        cboFiltroTurno.Location = New Point(57, 79)
+        cboFiltroTurno.Name = "cboFiltroTurno"
+        cboFiltroTurno.Size = New Size(539, 33)
+        cboFiltroTurno.TabIndex = 3
+        ' 
+        ' dvgEstudiantes
+        ' 
+        dvgEstudiantes.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        dvgEstudiantes.Columns.AddRange(New DataGridViewColumn() {Column1, Column2, Column3, Column4, Column5})
+        dvgEstudiantes.Dock = DockStyle.Fill
+        dvgEstudiantes.Location = New Point(3, 118)
+        dvgEstudiantes.Name = "dvgEstudiantes"
+        dvgEstudiantes.RowHeadersWidth = 62
+        dvgEstudiantes.Size = New Size(575, 0)
+        dvgEstudiantes.TabIndex = 6
+        ' 
+        ' Column1
+        ' 
+        Column1.HeaderText = "Matricula"
+        Column1.MinimumWidth = 8
+        Column1.Name = "Column1"
+        Column1.Width = 150
+        ' 
+        ' Column2
+        ' 
+        Column2.HeaderText = "Nombre"
+        Column2.MinimumWidth = 8
+        Column2.Name = "Column2"
+        Column2.Width = 150
+        ' 
+        ' Column3
+        ' 
+        Column3.HeaderText = "Apellido"
+        Column3.MinimumWidth = 8
+        Column3.Name = "Column3"
+        Column3.Width = 150
+        ' 
+        ' Column4
+        ' 
+        Column4.HeaderText = "Turno"
+        Column4.MinimumWidth = 8
+        Column4.Name = "Column4"
+        Column4.Width = 150
+        ' 
+        ' Column5
+        ' 
+        Column5.HeaderText = "Beca"
+        Column5.MinimumWidth = 8
+        Column5.Name = "Column5"
+        Column5.Width = 150
+        ' 
+        ' tabCursos
+        ' 
+        tabCursos.Controls.Add(TableLayoutPanel1)
+        tabCursos.Location = New Point(4, 34)
+        tabCursos.Name = "tabCursos"
+        tabCursos.Padding = New Padding(3)
+        tabCursos.Size = New Size(1075, 496)
+        tabCursos.TabIndex = 1
+        tabCursos.Text = "Cursos y Grupos"
+        tabCursos.UseVisualStyleBackColor = True
+        ' 
+        ' DataGridView1
+        ' 
+        DataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        DataGridView1.Columns.AddRange(New DataGridViewColumn() {Column6, Column7, Column8, Column9, Column10})
+        DataGridView1.Location = New Point(3, 124)
+        DataGridView1.Name = "DataGridView1"
+        DataGridView1.RowHeadersWidth = 62
+        DataGridView1.Size = New Size(629, 99)
+        DataGridView1.TabIndex = 7
+        ' 
+        ' Column6
+        ' 
+        Column6.HeaderText = "Matricula"
+        Column6.MinimumWidth = 8
+        Column6.Name = "Column6"
+        Column6.Width = 150
+        ' 
+        ' Column7
+        ' 
+        Column7.HeaderText = "Nombre"
+        Column7.MinimumWidth = 8
+        Column7.Name = "Column7"
+        Column7.Width = 150
+        ' 
+        ' Column8
+        ' 
+        Column8.HeaderText = "Apellido"
+        Column8.MinimumWidth = 8
+        Column8.Name = "Column8"
+        Column8.Width = 150
+        ' 
+        ' Column9
+        ' 
+        Column9.HeaderText = "Turno"
+        Column9.MinimumWidth = 8
+        Column9.Name = "Column9"
+        Column9.Width = 150
+        ' 
+        ' Column10
+        ' 
+        Column10.HeaderText = "Beca"
+        Column10.MinimumWidth = 8
+        Column10.Name = "Column10"
+        Column10.Width = 150
+        ' 
+        ' grpDetalleEstudiante
+        ' 
+        grpDetalleEstudiante.Controls.Add(Me.lblDetalleBeca)
+        grpDetalleEstudiante.Controls.Add(Me.lblDetalleTurno)
+        grpDetalleEstudiante.Controls.Add(lblDetalleMatricula)
+        grpDetalleEstudiante.Controls.Add(lblDetalleApellido)
+        grpDetalleEstudiante.Controls.Add(lblDetalleNombre)
+        grpDetalleEstudiante.Location = New Point(3, 229)
+        grpDetalleEstudiante.Name = "grpDetalleEstudiante"
+        grpDetalleEstudiante.Size = New Size(629, 255)
+        grpDetalleEstudiante.TabIndex = 8
+        grpDetalleEstudiante.TabStop = False
+        grpDetalleEstudiante.Text = "Detalle del Estudiante Seleccionado"
+        ' 
+        ' lblDetalleNombre
+        ' 
+        lblDetalleNombre.AutoSize = True
+        lblDetalleNombre.Location = New Point(6, 36)
+        lblDetalleNombre.Name = "lblDetalleNombre"
+        lblDetalleNombre.Size = New Size(78, 25)
+        lblDetalleNombre.TabIndex = 0
+        lblDetalleNombre.Text = "Nombre"
+        ' 
+        ' lblDetalleApellido
+        ' 
+        lblDetalleApellido.AutoSize = True
+        lblDetalleApellido.Location = New Point(6, 73)
+        lblDetalleApellido.Name = "lblDetalleApellido"
+        lblDetalleApellido.Size = New Size(78, 25)
+        lblDetalleApellido.TabIndex = 1
+        lblDetalleApellido.Text = "Apellido"
+        ' 
+        ' lblDetalleMatricula
+        ' 
+        lblDetalleMatricula.AutoSize = True
+        lblDetalleMatricula.Location = New Point(6, 112)
+        lblDetalleMatricula.Name = "lblDetalleMatricula"
+        lblDetalleMatricula.Size = New Size(84, 25)
+        lblDetalleMatricula.TabIndex = 2
+        lblDetalleMatricula.Text = "Matricula"
+        ' 
+        ' lblDetalleTurno
+        ' 
+        Me.lblDetalleTurno.AutoSize = True
+        Me.lblDetalleTurno.Location = New Point(6, 152)
+        Me.lblDetalleTurno.Name = "lblDetalleTurno"
+        Me.lblDetalleTurno.Size = New Size(58, 25)
+        Me.lblDetalleTurno.TabIndex = 4
+        Me.lblDetalleTurno.Text = "Turno"
+        ' 
+        ' lblDetalleBeca
+        ' 
+        Me.lblDetalleBeca.AutoSize = True
+        Me.lblDetalleBeca.Location = New Point(6, 192)
+        Me.lblDetalleBeca.Name = "lblDetalleBeca"
+        Me.lblDetalleBeca.Size = New Size(48, 25)
+        Me.lblDetalleBeca.TabIndex = 5
+        Me.lblDetalleBeca.Text = "Beca"
+        ' 
+        ' TableLayoutPanel1
+        ' 
+        TableLayoutPanel1.ColumnCount = 2
+        TableLayoutPanel1.ColumnStyles.Add(New ColumnStyle(SizeType.Percent, 50F))
+        TableLayoutPanel1.ColumnStyles.Add(New ColumnStyle(SizeType.Percent, 50F))
+        TableLayoutPanel1.Location = New Point(31, 33)
+        TableLayoutPanel1.Name = "TableLayoutPanel1"
+        TableLayoutPanel1.RowCount = 2
+        TableLayoutPanel1.RowStyles.Add(New RowStyle(SizeType.Percent, 50F))
+        TableLayoutPanel1.RowStyles.Add(New RowStyle(SizeType.Percent, 50F))
+        TableLayoutPanel1.Size = New Size(475, 267)
+        TableLayoutPanel1.TabIndex = 0
+        ' 
+        ' Form1
+        ' 
+        AutoScaleDimensions = New SizeF(10F, 25F)
+        AutoScaleMode = AutoScaleMode.Font
+        ClientSize = New Size(1085, 751)
+        Controls.Add(TabControl1)
+        Controls.Add(ToolStrip1)
+        Controls.Add(MenuStrip1)
+        MainMenuStrip = MenuStrip1
+        Name = "Form1"
+        Text = "Form1"
+        MenuStrip1.ResumeLayout(False)
+        MenuStrip1.PerformLayout()
+        ToolStrip1.ResumeLayout(False)
+        ToolStrip1.PerformLayout()
+        TabControl1.ResumeLayout(False)
+        tabEstudiantes.ResumeLayout(False)
+        splitEstudiantes.Panel1.ResumeLayout(False)
+        splitEstudiantes.Panel2.ResumeLayout(False)
+        CType(splitEstudiantes, ComponentModel.ISupportInitialize).EndInit()
+        splitEstudiantes.ResumeLayout(False)
+        grpRegistroEstudiante.ResumeLayout(False)
+        tlpRegistroEstudiante.ResumeLayout(False)
+        tlpRegistroEstudiante.PerformLayout()
+        grpTurno.ResumeLayout(False)
+        grpTurno.PerformLayout()
+        flpFiltrosEstudiantes.ResumeLayout(False)
+        flpFiltrosEstudiantes.PerformLayout()
+        CType(dvgEstudiantes, ComponentModel.ISupportInitialize).EndInit()
+        tabCursos.ResumeLayout(False)
+        CType(DataGridView1, ComponentModel.ISupportInitialize).EndInit()
+        grpDetalleEstudiante.ResumeLayout(False)
+        grpDetalleEstudiante.PerformLayout()
+        ResumeLayout(False)
+        PerformLayout()
+    End Sub
+
+    Friend WithEvents MenuStrip1 As MenuStrip
+    Friend WithEvents mnuArchivo As ToolStripMenuItem
+    Friend WithEvents mnuNuevoEstudiante As ToolStripMenuItem
+    Friend WithEvents mnuImportar As ToolStripMenuItem
+    Friend WithEvents mnuExportar As ToolStripMenuItem
+    Friend WithEvents mnuEstudiantes As ToolStripMenuItem
+    Friend WithEvents mnuReportes As ToolStripMenuItem
+    Friend WithEvents mnuFormato As ToolStripMenuItem
+    Friend WithEvents mnuSalir As ToolStripMenuItem
+    Friend WithEvents mnuGuardarEstudiante As ToolStripMenuItem
+    Friend WithEvents mnuEliminarEstudiante As ToolStripMenuItem
+    Friend WithEvents mnuLimpiarEstudiante As ToolStripMenuItem
+    Friend WithEvents mnuActualizarReporte As ToolStripMenuItem
+    Friend WithEvents mnuReporteBecados As ToolStripMenuItem
+    Friend WithEvents mnuReporteTurnos As ToolStripMenuItem
+    Friend WithEvents mnuFuente As ToolStripMenuItem
+    Friend WithEvents mnuColor As ToolStripMenuItem
+    Friend WithEvents mnuNegrita As ToolStripMenuItem
+    Friend WithEvents mnuCursiva As ToolStripMenuItem
+    Friend WithEvents ToolStrip1 As ToolStrip
+    Friend WithEvents tsbNuevo As ToolStripButton
+    Friend WithEvents tsbGuardar As ToolStripButton
+    Friend WithEvents ToolStripSeparator1 As ToolStripSeparator
+    Friend WithEvents tsbImportar As ToolStripButton
+    Friend WithEvents tsbExportar As ToolStripButton
+    Friend WithEvents ToolStripSeparator2 As ToolStripSeparator
+    Friend WithEvents tsbActualizarReporte As ToolStripButton
+    Friend WithEvents TabControl1 As TabControl
+    Friend WithEvents tabEstudiantes As TabPage
+    Friend WithEvents tabCursos As TabPage
+    Friend WithEvents splitEstudiantes As SplitContainer
+    Friend WithEvents grpRegistroEstudiante As GroupBox
+    Friend WithEvents tlpRegistroEstudiante As TableLayoutPanel
+    Friend WithEvents txtNombre As TextBox
+    Friend WithEvents Label1 As Label
+    Friend WithEvents Label2 As Label
+    Friend WithEvents Label3 As Label
+    Friend WithEvents Label4 As Label
+    Friend WithEvents txtApellido As TextBox
+    Friend WithEvents txtMatricula As TextBox
+    Friend WithEvents grpTurno As GroupBox
+    Friend WithEvents rbVespertino As RadioButton
+    Friend WithEvents rbMatutino As RadioButton
+    Friend WithEvents chkBeca As CheckBox
+    Friend WithEvents btnLimpiarEstudiante As Button
+    Friend WithEvents btnGuardarEstudiante As Button
+    Friend WithEvents flpFiltrosEstudiantes As FlowLayoutPanel
+    Friend WithEvents Label5 As Label
+    Friend WithEvents txtBuscarEstudiante As TextBox
+    Friend WithEvents lbl As Label
+    Friend WithEvents cboFiltroTurno As ComboBox
+    Friend WithEvents Label6 As Label
+    Friend WithEvents cboFiltroBeca As ComboBox
+    Friend WithEvents dvgEstudiantes As DataGridView
+    Friend WithEvents Column1 As DataGridViewTextBoxColumn
+    Friend WithEvents Column2 As DataGridViewTextBoxColumn
+    Friend WithEvents Column3 As DataGridViewTextBoxColumn
+    Friend WithEvents Column4 As DataGridViewTextBoxColumn
+    Friend WithEvents Column5 As DataGridViewTextBoxColumn
+    Friend WithEvents DataGridView1 As DataGridView
+    Friend WithEvents Column6 As DataGridViewTextBoxColumn
+    Friend WithEvents Column7 As DataGridViewTextBoxColumn
+    Friend WithEvents Column8 As DataGridViewTextBoxColumn
+    Friend WithEvents Column9 As DataGridViewTextBoxColumn
+    Friend WithEvents Column10 As DataGridViewTextBoxColumn
+    Friend WithEvents grpDetalleEstudiante As GroupBox
+    Friend WithEvents lblDetalleNombre As Label
+    Friend WithEvents Label12 As Label
+    Friend WithEvents Label11 As Label
+    Friend WithEvents Label10 As Label
+    Friend WithEvents lblDetalleMatricula As Label
+    Friend WithEvents lblDetalleApellido As Label
+    Friend WithEvents TableLayoutPanel1 As TableLayoutPanel
+
+End Class

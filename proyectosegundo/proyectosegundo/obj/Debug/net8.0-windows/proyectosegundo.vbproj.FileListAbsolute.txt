@@ -1,0 +1,16 @@
+C:\Users\vick-\source\repos\proyectosegundo\proyectosegundo\bin\Debug\net8.0-windows\proyectosegundo.exe
+C:\Users\vick-\source\repos\proyectosegundo\proyectosegundo\bin\Debug\net8.0-windows\proyectosegundo.deps.json
+C:\Users\vick-\source\repos\proyectosegundo\proyectosegundo\bin\Debug\net8.0-windows\proyectosegundo.runtimeconfig.json
+C:\Users\vick-\source\repos\proyectosegundo\proyectosegundo\bin\Debug\net8.0-windows\proyectosegundo.dll
+C:\Users\vick-\source\repos\proyectosegundo\proyectosegundo\bin\Debug\net8.0-windows\proyectosegundo.pdb
+C:\Users\vick-\source\repos\proyectosegundo\proyectosegundo\obj\Debug\net8.0-windows\proyectosegundo.Form1.resources
+C:\Users\vick-\source\repos\proyectosegundo\proyectosegundo\obj\Debug\net8.0-windows\proyectosegundo.vbproj.GenerateResource.cache
+C:\Users\vick-\source\repos\proyectosegundo\proyectosegundo\obj\Debug\net8.0-windows\proyectosegundo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vick-\source\repos\proyectosegundo\proyectosegundo\obj\Debug\net8.0-windows\proyectosegundo.AssemblyInfoInputs.cache
+C:\Users\vick-\source\repos\proyectosegundo\proyectosegundo\obj\Debug\net8.0-windows\proyectosegundo.AssemblyInfo.vb
+C:\Users\vick-\source\repos\proyectosegundo\proyectosegundo\obj\Debug\net8.0-windows\proyectosegundo.vbproj.CoreCompileInputs.cache
+C:\Users\vick-\source\repos\proyectosegundo\proyectosegundo\obj\Debug\net8.0-windows\proyectosegundo.dll
+C:\Users\vick-\source\repos\proyectosegundo\proyectosegundo\obj\Debug\net8.0-windows\refint\proyectosegundo.dll
+C:\Users\vick-\source\repos\proyectosegundo\proyectosegundo\obj\Debug\net8.0-windows\proyectosegundo.pdb
+C:\Users\vick-\source\repos\proyectosegundo\proyectosegundo\obj\Debug\net8.0-windows\proyectosegundo.genruntimeconfig.cache
+C:\Users\vick-\source\repos\proyectosegundo\proyectosegundo\obj\Debug\net8.0-windows\ref\proyectosegundo.dll

@@ -1,0 +1,143 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\vick-\\source\\repos\\proyectosegundo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{03C19D97-EE88-4FC6-372C-B6CA77B31CD6}|proyectosegundo\\proyectosegundo.vbproj|c:\\users\\vick-\\source\\repos\\proyectosegundo\\proyectosegundo\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{03C19D97-EE88-4FC6-372C-B6CA77B31CD6}|proyectosegundo\\proyectosegundo.vbproj|solutionrelative:proyectosegundo\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03C19D97-EE88-4FC6-372C-B6CA77B31CD6}|proyectosegundo\\proyectosegundo.vbproj|c:\\users\\vick-\\source\\repos\\proyectosegundo\\proyectosegundo\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{03C19D97-EE88-4FC6-372C-B6CA77B31CD6}|proyectosegundo\\proyectosegundo.vbproj|solutionrelative:proyectosegundo\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03C19D97-EE88-4FC6-372C-B6CA77B31CD6}|proyectosegundo\\proyectosegundo.vbproj|c:\\users\\vick-\\source\\repos\\proyectosegundo\\proyectosegundo\\form1.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{03C19D97-EE88-4FC6-372C-B6CA77B31CD6}|proyectosegundo\\proyectosegundo.vbproj|solutionrelative:proyectosegundo\\form1.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03C19D97-EE88-4FC6-372C-B6CA77B31CD6}|proyectosegundo\\proyectosegundo.vbproj|c:\\users\\vick-\\source\\repos\\proyectosegundo\\proyectosegundo\\curso.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{03C19D97-EE88-4FC6-372C-B6CA77B31CD6}|proyectosegundo\\proyectosegundo.vbproj|solutionrelative:proyectosegundo\\curso.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03C19D97-EE88-4FC6-372C-B6CA77B31CD6}|proyectosegundo\\proyectosegundo.vbproj|c:\\users\\vick-\\source\\repos\\proyectosegundo\\proyectosegundo\\inscripcion.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{03C19D97-EE88-4FC6-372C-B6CA77B31CD6}|proyectosegundo\\proyectosegundo.vbproj|solutionrelative:proyectosegundo\\inscripcion.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03C19D97-EE88-4FC6-372C-B6CA77B31CD6}|proyectosegundo\\proyectosegundo.vbproj|c:\\users\\vick-\\source\\repos\\proyectosegundo\\proyectosegundo\\estudiante.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{03C19D97-EE88-4FC6-372C-B6CA77B31CD6}|proyectosegundo\\proyectosegundo.vbproj|solutionrelative:proyectosegundo\\estudiante.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03C19D97-EE88-4FC6-372C-B6CA77B31CD6}|proyectosegundo\\proyectosegundo.vbproj|c:\\users\\vick-\\source\\repos\\proyectosegundo\\proyectosegundo\\persona.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{03C19D97-EE88-4FC6-372C-B6CA77B31CD6}|proyectosegundo\\proyectosegundo.vbproj|solutionrelative:proyectosegundo\\persona.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.vb",
+              "DocumentMoniker": "C:\\Users\\vick-\\source\\repos\\proyectosegundo\\proyectosegundo\\Form1.vb",
+              "RelativeDocumentMoniker": "proyectosegundo\\Form1.vb",
+              "ToolTip": "C:\\Users\\vick-\\source\\repos\\proyectosegundo\\proyectosegundo\\Form1.vb*",
+              "RelativeToolTip": "proyectosegundo\\Form1.vb*",
+              "ViewState": "AgIAABEAAAAAAAAAAAAuwCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-07-30T01:06:19.329Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Curso.vb",
+              "DocumentMoniker": "C:\\Users\\vick-\\source\\repos\\proyectosegundo\\proyectosegundo\\Curso.vb",
+              "RelativeDocumentMoniker": "proyectosegundo\\Curso.vb",
+              "ToolTip": "C:\\Users\\vick-\\source\\repos\\proyectosegundo\\proyectosegundo\\Curso.vb",
+              "RelativeToolTip": "proyectosegundo\\Curso.vb",
+              "ViewState": "AgIAAIIAAAAAAAAAAADwv58AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-08-02T01:18:26.344Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Inscripcion.vb",
+              "DocumentMoniker": "C:\\Users\\vick-\\source\\repos\\proyectosegundo\\proyectosegundo\\Inscripcion.vb",
+              "RelativeDocumentMoniker": "proyectosegundo\\Inscripcion.vb",
+              "ToolTip": "C:\\Users\\vick-\\source\\repos\\proyectosegundo\\proyectosegundo\\Inscripcion.vb",
+              "RelativeToolTip": "proyectosegundo\\Inscripcion.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-08-02T01:18:14.469Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Estudiante.vb",
+              "DocumentMoniker": "C:\\Users\\vick-\\source\\repos\\proyectosegundo\\proyectosegundo\\Estudiante.vb",
+              "RelativeDocumentMoniker": "proyectosegundo\\Estudiante.vb",
+              "ToolTip": "C:\\Users\\vick-\\source\\repos\\proyectosegundo\\proyectosegundo\\Estudiante.vb",
+              "RelativeToolTip": "proyectosegundo\\Estudiante.vb",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAwwF4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-08-02T01:17:59.58Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Persona.vb",
+              "DocumentMoniker": "C:\\Users\\vick-\\source\\repos\\proyectosegundo\\proyectosegundo\\Persona.vb",
+              "RelativeDocumentMoniker": "proyectosegundo\\Persona.vb",
+              "ToolTip": "C:\\Users\\vick-\\source\\repos\\proyectosegundo\\proyectosegundo\\Persona.vb",
+              "RelativeToolTip": "proyectosegundo\\Persona.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-08-02T01:17:44.146Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.vb [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\vick-\\source\\repos\\proyectosegundo\\proyectosegundo\\Form1.vb",
+              "RelativeDocumentMoniker": "proyectosegundo\\Form1.vb",
+              "ToolTip": "C:\\Users\\vick-\\source\\repos\\proyectosegundo\\proyectosegundo\\Form1.vb [Dise\u00F1o]*",
+              "RelativeToolTip": "proyectosegundo\\Form1.vb [Dise\u00F1o]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-07-31T22:59:56.747Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.Designer.vb",
+              "DocumentMoniker": "C:\\Users\\vick-\\source\\repos\\proyectosegundo\\proyectosegundo\\Form1.Designer.vb",
+              "RelativeDocumentMoniker": "proyectosegundo\\Form1.Designer.vb",
+              "ToolTip": "C:\\Users\\vick-\\source\\repos\\proyectosegundo\\proyectosegundo\\Form1.Designer.vb*",
+              "RelativeToolTip": "proyectosegundo\\Form1.Designer.vb*",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAEwGYAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2026-07-31T22:57:27.196Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
